@@ -5,13 +5,14 @@ Created on Wed Dec 07 16:57:52 2023
 @author: saisi
 """
 
+# Import the required libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 #setting views for dataframe
-pd.options.display.max_rows = 30
-pd.options.display.max_columns = 30
+pd.options.display.max_rows = 40
+pd.options.display.max_columns = 40
 
 
 def loading_dataframe(filename):
